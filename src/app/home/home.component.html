@@ -1,0 +1,24 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">employee_name</th>
+      <th scope="col">employee_salary</th>
+      <th scope="col">employee_age</th>
+      
+
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let post of posts">
+      <th>{{post.id}}</th>
+      <td>{{post.employee_name}}</td>
+      <td>{{post.employee_salary}}</td>
+      <td>{{post.employee_age}}</td>
+     
+      
+    </tr>
+    <!-- //*ngFor="let post of posts" -->
+  </tbody>
+</table>
